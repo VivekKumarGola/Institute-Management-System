@@ -11,14 +11,14 @@ def admindelete():
         s="select aname,password,aemail,aphone from admin where admin_id='%s'"%(x)
         cur.execute(s)
         data=cur.fetchone()
-       # e1.delete(0,100)
+    
         e2.delete(0,100)
         e3.delete(0,100)
         e5.delete(0,100)
         e6.delete(0,100)
         e2.insert(0,data[0])
         e3.insert(0,data[1])
-       # e4.insert(0,data[2])
+    
         e5.insert(0,data[2])
         e6.insert(0,data[3 ])
         db.close()
@@ -36,7 +36,7 @@ def admindelete():
         e1.delete(0,100)
         e2.delete(0,100)
         e3.delete(0,100)
-        #e4.delete(0,100)
+    
         e5.delete(0,100)
         e6.delete(0,100)
     def showpass():
@@ -57,10 +57,10 @@ def admindelete():
         e1.delete(0,100)
         e2.delete(0,100)
         e3.delete(0,100)
-        #e4.delete(0,100)
+    
         e5.delete(0,100)
         e6.delete(0,100)
-        #e7.delete(0,100)
+    
         db.close()
        
     c=Canvas(width=1700,height=1700,bg='pink')
