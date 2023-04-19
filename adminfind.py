@@ -51,8 +51,7 @@ def adminfind():
     a.place(x=350,y=70)
     l1=Label(c,text="Admin Id",font=('TimesNewRoman'),width=15)
     l1.place(x=50,y=200)
-    #e1=Entry(c,width=30)
-    #e1.place(x=300,y=200,height=30)
+    
     e1=ttk.Combobox(c,width=30)
     e1.place(x=300,y=200,height=30)
     data=filldatatwo()
