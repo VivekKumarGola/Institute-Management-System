@@ -77,7 +77,3 @@ def batchshiftfind():
     bt3=Button(c,text="Close",font=('Bookman Old Style',20),width=8)
     bt3.place(x=700,y=680)
     
-    
-#bt=Button(t,text="save",command=batchshiftfind)
-#bt.place(x=50,y=50)
-#t.mainloop()
