@@ -3,8 +3,7 @@ import pymysql
 from tkinter import messagebox
 from tkinter import *
 from tkinter import ttk
-#t=tkinter.Tk()
-#t.geometry('1700x1700')
+
 def enquiryfind():
     def finddata():
         db=pymysql.connect(host='localhost',user='root',password='root',database='institution')
